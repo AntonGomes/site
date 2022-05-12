@@ -1,0 +1,33 @@
+.body {
+    text-align: center;
+    display: inline-block;
+}
+
+.body div {
+    padding: 10vh;
+    border: 5px solid white;
+    display: block;
+}
+
+.body div a:hover {
+    color: pink;
+}
+
+.slug {
+    margin: auto;
+    width: 70%;
+}
+    
+.canvas {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+.bordle {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
