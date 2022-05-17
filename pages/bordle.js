@@ -19,7 +19,7 @@ export default function bordle(props) {
     }
 
     async function click() {
-        const d = await fetch(`https://bordlebyanton.herokuapp.com/?url=${suggestion}`, {
+        const d = await fetch(`https://bordlebyanton.herokuapp.com/setUrls/?url=${suggestion}`, {
                     mode: 'cors',
                     headers: {
                         'Content-Type': 'application/json',
