@@ -24,7 +24,7 @@ export default function bordle(props) {
                     headers: {
                         'Content-Type': 'application/json',
                     }
-                }).then(res => res.json()).then(data => return data)
+                }).then(res => res.json()).then(data => {return data})
 
         setUrls(d.urls)
     }
