@@ -15,7 +15,11 @@ export default function bordle(props) {
 
     function getRandomLink() {
         let l = String(urls[getRandomInt(urls.length)])
-        window.location.href
+        if (l.includes("http")) {
+            window.location.href = l
+        } else {
+            window.location.href = `https://${l}` 
+        }
     }
 
     async function click() {
@@ -28,6 +32,18 @@ export default function bordle(props) {
 
         setUrls(d.urls)
     }
+
+    useEffect(() => {
+        (async () => {
+            let d = await fetch("https://bordlebyanton.herokuapp.com/", {
+                mode: "cors",
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+             }).then(res => res.json()).then(data => {return data})
+            setUrls(d.urls)
+        })()
+    })
 
     return(
         <div>
