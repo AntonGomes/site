@@ -19,8 +19,7 @@ export default function bordle(props) {
     }
 
     async function click() {
-        console.log(suggestion)
-        /*const d = await fetch(`https://bordlebyanton.herokuapp.com/?url=${suggestion}`, {
+        const d = await fetch(`https://bordlebyanton.herokuapp.com/?url=${suggestion}`, {
                     mode: 'cors',
                     headers: {
                         'Content-Type': 'application/json',
@@ -28,7 +27,6 @@ export default function bordle(props) {
                 }).then(res => res.json()).then(data => return data)
 
         setUrls(d.urls)
-*/
     }
 
    useEffect(() => {
