@@ -1,0 +1,44 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 1em;
+    border-top:1px solid white;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px;
+}
+
+.footer ul {
+    list-style-type:none;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer a:hover {
+    color: pink;
+}
+
+.contacts {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    float: left;
+}
+
+
+.pages {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    float: left;
+} 
+
+.head {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+
+}

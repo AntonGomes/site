@@ -1,6 +1,7 @@
+import styles from '../styles/bordle.module.css'
+import Default from "../components/default.jsx"
 import {useState, useEffect} from 'react' 
 import Link from 'next/link'
-import styles from '../styles/pages.module.css'
 
 
 export default function bordle(props) {
@@ -10,19 +11,19 @@ export default function bordle(props) {
 
     function getRandomInt(max) {
         const r = Math.floor(Math.random() * max)
-        return r
+        return  r
     }   
 
     function getRandomLink() {
-        let l = String(urls[getRandomInt(urls.length)])
-        if (l.includes("http")) {
-            window.location.href = l
-        } else {
-            window.location.href = `https://${l}` 
-        }
+        window.open(String(urls[getRandomInt(urls.length)]), '_blank', 'noopener,noreferrer')
+ 
     }
 
     async function click() {
+       if (!(suggestion.startsWith("https://") || suggestion.startsWith("http://"))) {
+            alert("invalid url buddy -_-")
+            return;
+        }
         const d = await fetch(`https://bordlebyanton.herokuapp.com/setUrls?url=${suggestion}`, {
                     mode: 'cors',
                     headers: {
@@ -31,11 +32,12 @@ export default function bordle(props) {
                 }).then(res => res.json()).then(data => {return data})
 
         setUrls(d.urls)
+        alert("site added to bordled")
     }
 
     useEffect(() => {
         (async () => {
-            let d = await fetch("https://bordlebyanton.herokuapp.com/", {
+            let d = await fetch("https://bordlebyanton.herokuapp.com", {
                 mode: "cors",
                 headers: {
                     'Content-Type': 'application/json',
@@ -46,17 +48,20 @@ export default function bordle(props) {
     })
 
     return(
-        <div>
-        <div className={styles.bordle}>
-        <button onClick={getRandomLink}>Bored?</button>
-        </div>
+        <Default>
+        <button className={styles.bordle} onClick={getRandomLink}>Bored?</button>
         <div className={styles.lessBoring}>
         Make bordle less boring:
-        <input type="text"value={suggestion} onChange={(e) => setSuggestion(e.target.value)} />
+        <input 
+			type="text"
+            value={suggestion} 
+            onChange={(e) => setSuggestion(e.target.value)} 
+            placeholder="https://antongomes.com/draw"
+		/>
 
         <button onClick={async () => await click()}>Submit</button>
         </div>
-        </div>
+        </Default>
     )
 }
 
