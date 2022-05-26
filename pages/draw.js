@@ -18,10 +18,6 @@ export default function Draw(props) {
                 })
     }
 
-    /*function undo() {
-        (canvas.current != null) ? canvas.current.undo() : alert("nothing to undo!");
-    }
-    */
     useEffect(() => { //get drawing on deployment
         (async () => {
             const d = await fetch('https://bordlebyanton.herokuapp.com/getDraw', {

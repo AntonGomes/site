@@ -5,6 +5,7 @@ body {
   font-family: Courier New;
   background: black;
   color: white;
+  font-size: 2vh;
 }
 
 * {
