@@ -1,14 +1,16 @@
 import ReactMarkdown from 'react-markdown'
 import {getPostSlugs, getPostBySlug} from '../../utils/postsAPI'
+import Default from "../../components/default.jsx"
+import styles from "../../styles/slug.module.css"
 
 function Post(props) {
     return (
-        <div>
-            <div>{props.post.title || ""}</div>
-            <div>
+        <Default>
+            <h1 className={styles.title}>{props.post.title || ""}</h1>
+            <div className={styles.body}>
                 <ReactMarkdown children={props.post.content}/>
             </div>
-        </div>
+        </Default>
     )
 }
 

@@ -1,0 +1,30 @@
+.nav {
+    list-style-type: none;
+    position: fixed;
+    width: 20vh;
+    height: 100%;
+    overflow: auto;
+    border-right: 1px solid white;
+    padding-right: 25vh;
+}
+
+.nav li a {
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+
+.nav li a.active {
+    color: pink;
+}
+
+.body div {
+    width: 100vh;
+    display: block;
+    padding-left: 40vh;
+    height: 100vh;
+    padding-top: 4vh;
+}
+
+

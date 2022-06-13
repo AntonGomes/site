@@ -1,4 +1,10 @@
 .body {
     margin: auto;
-    width: 70%;
+    width: 50%;
+    line-height: 1.7;
 }
+
+.title {
+    text-align: center;
+}
+

@@ -39,10 +39,10 @@ export default function Draw(props) {
         <h1 className={styles.head}>Be My Guest :)</h1>
 
         <button className={styles.button} onClick={() => {canvas.current.undo()}}>
-			save
+	    undo
 		</button>
         <button className={styles.button} onClick={async () => await click()}>
-        undo
+        save
         </button>
 
         <p>P.S. once you sign below (and click save), your signature will remain on the guest book unless removed by admin. </p>
