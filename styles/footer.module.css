@@ -31,14 +31,17 @@
 
 .pages {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
-    float: left;
 } 
 
 .head {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 5px;
+}
 
+.head a {
+    text-decoration: none;
 }

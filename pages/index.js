@@ -1,7 +1,6 @@
 import styles from '../styles/pages.module.css'
 import Link from 'next/link'
 import Draggable from 'react-draggable';
-import { useRef } from 'react';
 
 export default function Home() {
         

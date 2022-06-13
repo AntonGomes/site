@@ -1,4 +1,5 @@
 import styles from "../styles/footer.module.css"
+import Link from 'next/link'
 
 export default function Footer(props) {
     return (
@@ -6,7 +7,7 @@ export default function Footer(props) {
 
         <div className={styles.info}>
         <ul>
-            <li className={styles.head}>antongomes</li>
+            <li className={styles.head}><Link href="./">antongomes</Link></li>
             <li>edinburgh, united kingdom</li>
             <li>tel: +44 7584 428912</li>
             <li><a href = "mailto:anton@antongomes.com">email: anton@antongomes.com</a></li>  
