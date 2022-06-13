@@ -24,6 +24,7 @@ export default function bordle(props) {
             alert("invalid url buddy -_-")
             return;
         }
+        alert("site has been bordled")
         const d = await fetch(`https://bordlebyanton.herokuapp.com/setUrls?url=${suggestion}`, {
                     mode: 'cors',
                     headers: {
@@ -32,7 +33,6 @@ export default function bordle(props) {
                 }).then(res => res.json()).then(data => {return data})
 
         setUrls(d.urls)
-        alert("site added to bordled")
     }
 
     useEffect(() => {
