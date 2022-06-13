@@ -3,3 +3,14 @@
     margin: 5vh;
 }
 
+.head {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 2vh;
+    text-align: center;
+}
+
+.head a {
+    text-decoration: none;
+    color: white;
+}
