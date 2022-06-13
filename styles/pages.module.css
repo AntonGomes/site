@@ -3,7 +3,7 @@
     padding: 2vh;
 }
 
-.landing div {
+.landing a {
     padding: 10vh;
     text-align: center;
     border: 5px solid white;
@@ -12,14 +12,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-.landing a {
     text-decoration: underline;
     color: white;
 }
 
-.landing div a:hover {
+.landing a:hover {
     color: pink;
 }
 

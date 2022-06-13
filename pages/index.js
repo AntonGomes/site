@@ -6,19 +6,10 @@ export default function Home() {
         
   return (
       <div className={styles.landing}>
-           <Draggable>
-      <div><Link href = "./bordle">bordle</Link></div>
-            </Draggable>
-            <Draggable>
-      <div><Link href = "./draw">guest book</Link></div>
-            </Draggable>
-            <Draggable>
-      <div><Link href = "./about">about</Link></div>
-            </Draggable>
-             <Draggable>
-      <div><Link href = "./posts">*posts coming soon*</Link></div>
-            </Draggable>
-            
+      <Link href = "./bordle">bordle</Link>
+      <Link href = "./draw">guest book</Link>
+      <Link href = "./about">about</Link>
+      <Link href = "./posts">*posts in progress*</Link>
       </div>
   )
 }
