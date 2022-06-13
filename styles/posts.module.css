@@ -1,0 +1,18 @@
+.body {
+    width: 50%;
+    margin: auto;
+}
+
+.body a {
+    text-decoration: none;
+    color: white;
+}
+
+.body input {
+    width: 100%;
+    padding: 1vh;
+}
+
+.body ul {
+    list-style-type: none;
+}

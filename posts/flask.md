@@ -2,7 +2,7 @@
 title: How To - Backend JSON with Flask
 description: Need a quick and easy backend server? Read on to learn how to host, read and write a JSON on Heroku using the Python Flask framework.
 date: 27/05/2022
-readTime: 5 minutes
+readTime: 534
 ---
 
 
