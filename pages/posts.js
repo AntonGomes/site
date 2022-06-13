@@ -28,11 +28,11 @@ export default function Posts(props) {
                 filteredPosts.map(post => {
                     return (
                         <li>
-                            <div>
-                                <h2><Link href={post.slug.replace(".md", "")}>{post.title}</Link></h2>
-                                <p>{post.date}</p>
-                                <p>This post will take {post.readTime} seconds to read</p>
+                            <div className={styles.post}>
+                                <h1><Link href={post.slug.replace(".md", "")}>{post.title}</Link></h1>
                                 <p>{post.description}</p>
+                                <p>{post.date}</p>
+                                <p>This post will take {post.readTime} seconds to read.</p>
                             </div>
                         </li>
                     )

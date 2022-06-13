@@ -1,16 +1,23 @@
 .body {
     width: 50%;
     margin: auto;
+    line-height: 1.7;
+}
+
+.post {
+    border: 2px solid white;
+    padding: 5vh;
 }
 
 .body a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
 .body input {
     width: 100%;
     padding: 1vh;
+    margin-bottom: 5vh;
 }
 
 .body ul {
