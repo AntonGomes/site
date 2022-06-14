@@ -4,9 +4,10 @@ import CanvasDraw from "react-canvas-draw";
 import {useState, useRef, useEffect} from 'react' 
 
 export default function Draw(props) {
-	const canvas = useRef(null);
+	const canvas = useRef([]);
 
     async function click() {
+        alert("Thanks for coming!")
         const saveData = canvas.current.getSaveData() //temp variable to store save data
         const d = await fetch(`https://bordlebyanton.herokuapp.com/setDraw`, {
                     method: 'POST',
@@ -32,25 +33,27 @@ export default function Draw(props) {
         })()
     })
 
-
     return (
         <Default>
 
-        <h1 className={styles.head}>Be My Guest :)</h1>
+        <div className={styles.text}>
+        <h1 className={styles.head}>Be My Guest</h1>
+        
+        <p>Leave a message below to if your dropping by! </p>
+        <p>P.S. Remember, any saved drawings will remain on the site unless removed by admin. So please keep things PG, my mum checks this site!</p>
 
+        <button className={styles.button} onClick={async () => await click()}>
+        save
+		</button>
         <button className={styles.button} onClick={() => {canvas.current.undo()}}>
 	    undo
 		</button>
-        <button className={styles.button} onClick={async () => await click()}>
-        save
-        </button>
+        </div>
 
-        <p>P.S. once you sign below (and click save), your signature will remain on the guest book unless removed by admin. </p>
-        <p>P.P.S. Please keep things PG my mum checks this site ;)</p>
-
+        <div className={styles.draw}>
         <CanvasDraw 
             ref={canvas}
-            canvasWidth={1000}
+            canvasWidth={400}
             canvasHeight={1000}
             brushRadius={1}
             brushColor= {"black"}
@@ -58,6 +61,7 @@ export default function Draw(props) {
             lazyRadius= {0}
             loadTimeOffset={10}
         />
+        </div>
 
         </Default>
     ) 

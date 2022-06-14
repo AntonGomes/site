@@ -9,6 +9,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
+    "a11y-react-emoji": "^1.2.0",
     "eslint": "^8.14.0",
     "eslint-config-next": "^12.1.6",
     "gray-matter": "^4.0.3",
