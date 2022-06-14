@@ -1,0 +1,35 @@
+.landing {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.landing div {
+    padding: 10vh 0;
+    text-align: center;
+    border: 5px solid white;
+    height: 30vh;
+    width: 30vh;
+    text-decoration: underline;
+    color: white;
+}
+
+.landing a {
+    text-decoration: underline;
+    color: white;
+}
+
+.landing .posts {
+    padding: 10vh 0;
+    text-align: center;
+    border: 5px dashed white;
+    height: 30vh;
+    width: 30vh;
+    text-decoration: underline;
+    color: white;
+}
+
+.landing a:hover {
+    color: pink;
+}
+
+

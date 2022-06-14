@@ -7,7 +7,7 @@ readTime: 534
 
 
 ## Overview
-In this tutorial we will crate our own flask app with three simple functions. Read a json, overwrite a json, and append to a json. No more, no less. This is because for *simple* sites, such as for personal use or to display a small project, a *simple* backend is all that's neccessary. With no SQL, no databases, just a json and an app.
+In this tutorial we will crate our own flask app with three simple functions. Read a json, overwrite a json, and append to a json. No more, no less. This is because for simple sites, such as for personal use or to display a small project, a simple backend is all that's neccessary. With no SQL, no databases, just a json and an app.
 
 I used Python for its popularity, readability, and ease of use. The Flask framework, while primarily used as its own web development framework, is very useful for hosting simple backend data structures thanks to (you guessed it...) its simplicity. 
 
@@ -16,7 +16,6 @@ Create the project:
 ```.bash
 mkdir project
 ```
-!
 In your project directory add or initiate the json you wish to manipulate; I'll call mine 'person.json':
 ```shell
 touch person.json
@@ -105,7 +104,7 @@ An object whose data we want to alter:
 Some information to give to the object 
 
 ```
-    NewData (dictionary)
+    newData (dictionary)
 ```
 
 As before, we `open` and `load` the file so that we have a dictionary with the contents of the json.
@@ -116,7 +115,7 @@ We then access the object we want to change in the dictionary with `data[object]
 
 Now that we've loaded the file, we move the cursor back to the start of the json with `f.seek(0)`, then use `json.dump()` to update the file.
 
-For good practice we have `file.truncate()` and `file.close()`. 
+For good practice, we have `file.truncate()` and `file.close()`. 
 
 `truncate` will change the file size if the new data is smaller than the previous, and `close` will close the file.
 
@@ -132,7 +131,7 @@ def getJson():
     return readFromJson('person.json')
 ```
 
-ToThen create the route `/setJson` and set it to call the `writeToJson()` funtion:
+Then create the route `/setJson` and set it to call the `writeToJson()` funtion:
 
 ```py
 @app.route("/setJson")
@@ -186,7 +185,7 @@ http://127.0.0.1:5000/setJson?name=jeff
 ```
 #### before
 ```json
-    {"name": "anton", "age": "19", "skill-level": 9000}
+    {"name": "anton", "age": 19, "skill-level": 9000}
 ```
 
 #### after

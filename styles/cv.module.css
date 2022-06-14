@@ -1,11 +1,12 @@
 .nav {
     list-style-type: none;
-    position: fixed;
-    width: 20vh;
-    height: 100%;
-    overflow: auto;
-    border-right: 1px solid white;
-    padding-right: 25vh;
+    display: inline-block;
+    float: left;
+    position: sticky;
+    top: 5vh;
+    width: 25%;
+    border: 1px solid white;
+    padding: 20px;
 }
 
 .nav li a {
@@ -15,16 +16,22 @@
     text-decoration: none;
 }
 
-.nav li a.active {
-    color: pink;
+.body {
+    margin-left: 20vh;
+    width: 60vh;
+    display: inline-block;
+    line-height: 1.7;
 }
 
 .body div {
-    width: 100vh;
-    display: block;
-    padding-left: 40vh;
-    height: 100vh;
-    padding-top: 4vh;
+    height: 100%;
+    padding-bottom: 100vh;
+    padding-top: 0.3vh;
+}
+
+.body a {
+    text-decoration: underline;
+    color: white;
 }
 
 
