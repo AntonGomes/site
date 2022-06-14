@@ -7,12 +7,12 @@ export default function Home() {
         
   return (
       <Default>
-      <ul className={styles.landing}>
+      <div className={styles.landing}>
       <div><Link href = "./bordle">bordle</Link></div>
       <div><Link href = "./draw">guest book</Link></div>
       <div><Link href = "./about">about</Link></div>
       <div className={styles.posts}><Link href = "./posts" >*posts in progress*</Link></div>
-      </ul>
+      </div>
       </Default>
   )
 }

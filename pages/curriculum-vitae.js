@@ -37,6 +37,9 @@ export default function cv() {
 
         <div id="skills">
         <h2>Skills</h2>
+        <p>I don't like quantify my own skill level as I don't think there is an accurate scale to compare myself to. Instead I'll explain why, how and what skills are: </p>
+        <strong>Javascript and Reactjs</strong> 
+        <ul><li>When I started to become mroe serious about pursuing a career in onformatics, the importance of a good portfolio site became vividly apparant. I came upon React when I came to university, and seeing as I had been wanting to learn Javascript, ReactJs was an obvious choice for my next project. I began with only basic HTML and CSS knowledge but have gradually built up a repotoire of web development skills. I now have no issua in building a good-looking, well-fucntioning website. This site itself has </li></ul>
         </div>
 
         <div id="ed">
