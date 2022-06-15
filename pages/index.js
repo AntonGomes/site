@@ -7,6 +7,7 @@ export default function Home() {
         
   return (
       <Default>
+            <h1>Anton's Site</h1>
       <div className={styles.landing}>
       <Link href = "./posts">posts</Link>
       <Link href = "./bordle">bordle</Link>

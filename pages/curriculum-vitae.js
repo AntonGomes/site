@@ -9,7 +9,10 @@ export default function cv() {
     return (
         <Default>
 
+        <h1>Anton's CV</h1>
+        <div className={styles.cv}>
         <div className={styles.nav}>
+        <h2><Link href="./curriculum-vitae">CV</Link></h2>
         <div><Link href="#intro">introduction</Link></div>
         <div><Link href="#skills">skills</Link></div>
         <div><Link href="#ed">education</Link></div>
@@ -101,6 +104,7 @@ export default function cv() {
         </section>
         </div>
 
+        </div>
         </div>
         </Default>
     )

@@ -1,10 +1,10 @@
 .body {
-    width: 50%;
+    width: 50vw;
     margin: auto;
     line-height: 1.7;
 }
 
-.post {
+.body li {
     border: 2px solid white;
     padding: 5vh;
 }
@@ -16,10 +16,11 @@
 
 .body input {
     width: 100%;
+    margin: auto;
     padding: 1vh;
-    margin-bottom: 5vh;
 }
 
 .body ul {
-    list-style-type: none;
+    list-style: none;
+    padding: none;
 }

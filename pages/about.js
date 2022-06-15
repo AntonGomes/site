@@ -1,9 +1,10 @@
-import styles from '../styles/index.module.css'
+import styles from '../styles/about.module.css'
 import Default from "../components/default.jsx"
 
 export default function About(props) {
     return (
         <Default>
+        <div className={styles.about}>
         <h1> About me</h1>
         <p><strong>Hey!</strong> My name is Anton and welcome to my site.</p> 
         <p>I am an aspiring programer and currently study Computer Science and Mathematics at the University of Edinburgh. </p>
@@ -12,6 +13,7 @@ export default function About(props) {
             <br/>
             <br/>
             I'm looking for work! My contacts and GitHub are below, feel free to reach out :)
+    </div>
         </Default>
     )
 }

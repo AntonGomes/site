@@ -14,15 +14,17 @@ export default function Default(props) {
    return (
             <div> 
             <Helmet>
-            <title>Antons Site</title>
+            <title>Anton's Site</title>
             <meta
                 name="description"
                 content="Anton Gomes portfolio site. Includes tutorials, writings and spare-time projects (inlcuding Bordle - The Cure for Boredom)."
             />
             </Helmet>
-       
             
-            <h1 className={styles.head}><Link href="./">Anton's Site</Link></h1>
+            <h2 className={styles.head}>
+            <Link href="./" >🏠</Link>
+            </h2>
+       
             <div className={styles.body}>
             {props.children}
             </div>

@@ -5,9 +5,18 @@ body {
   font-family: Helvetica;
   background: black;
   color: white;
-  font-size: clamp(14px, 4vw, 18px);
+  font-size: clamp(14px, 4vw, 20px);
 }
 
 * {
   box-sizing: border-box;
 }
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 2vh;
+    text-align: center;
+}
+
+ 
