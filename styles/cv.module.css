@@ -1,15 +1,17 @@
 .nav {
-    list-style-type: none;
     display: inline-block;
-    float: left;
+    width: 10vw;
+    padding-right: 30%;
+    padding-top: 4vh;
     position: sticky;
-    top: 5vh;
-    width: 25%;
-    border: 1px solid white;
-    padding: 20px;
+    top: 4vh;
+    bottom: 10vh;
+    height: 100vh;
+    float: left;
+    clear: both;
 }
 
-.nav li a {
+.nav a {
     color: white;
     font-weight: bold;
     display: block;
@@ -17,20 +19,28 @@
 }
 
 .body {
-    margin-left: 20vh;
-    width: 60vh;
-    display: inline-block;
+    width: 60vw;
+    margin: auto 0;
+    margin-left: 15vw;
+    display: block;
     line-height: 1.7;
+    padding-left: 10vw;
 }
 
 .body div {
-    height: 100%;
-    padding-bottom: 100vh;
+    height: 100vh;
     padding-top: 0.3vh;
+}
+
+.body article {
+    height: 100vh;
+    padding-top: 0.3vh;
+    margin-bottom: 100vh;
 }
 
 .body a {
     text-decoration: underline;
+    font-weight: bold;
     color: white;
 }
 

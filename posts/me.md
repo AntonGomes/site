@@ -4,15 +4,15 @@ description: Who doesn't love talking about themselves? A simple expansion and c
 date: 14/06/2022
 readTime: 302
 ---
-#### Hey! I'm Anton. A 19 year-old Scottish-Portuguese aspiring software engineer. 🏴󠁧󠁢󠁳󠁣󠁴󠁿🇵🇹👨‍💻
+**Hey! I'm Anton. A 19 year old Scottish/Portuguese student at Edinburgh University and aspiring software engineer. 🏴󠁧󠁢󠁳󠁣󠁴󠁿🇵🇹**
 
-I began programming two years ago. After getting carried away with a school project, I let an obsession with the field come over me.
+I was introduced to programming through a school project a few years ago. Now, after becoming increasing enthralled by the possibilities and power of coding, I've let an _obsession_ with the field come over me. 
 
-This passion for programming not only influenced me to study Computing Science at the University of Edinburgh, but has now given me the drive to pusue a career as a software engineer.
+This passion for programming not only led me to study Computing Science at the University of Edinburgh, but has now given me the drive to pursue a career as a software engineer. 
 
-I enjoy using my creativity to imagine and build original projects, in which, I let my attentiveness to detail, work ethic, and focus, assits me in reaching my objective. Said projects allow me to occupy all my spare time with practicing and improving my skills.
+In my spare time I use my creativity, attentiveness to detail, and focus to imagine and build original projects. I thrive on the sense of achivement these projects permit. 
 
-I love the sense of achivement from attaining a goal. Whether it be picking up a new language, finishing a build, or once again coming to the realisation that there is **always** more to learn.
+The rapid progress coding allows for always amazes me. From something as significant as picking up a new language or finishing a build; to the everyday triumphs such as learning a new command or fixing that bug that's been bothering me. 
 
-Through coding, I have obtained the invaluable skill of self-teaching. I pride myself in my belief that my understanding of my learning style, and a knowledge of learning resources, allow me to solve almost any problem I am faced with.
+I am resourceful and able to develop my coding skills independently. Being conscious of my learning practice, and equipped with learning resources, I am able to tackle coding challenges I am faced with. 
 
