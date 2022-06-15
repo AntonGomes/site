@@ -10,9 +10,9 @@ export default function Default(props) {
         document.documentElement.lang = 'en'
     });
 
+
    return (
             <div> 
-
             <Helmet>
             <title>Antons Site</title>
             <meta

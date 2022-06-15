@@ -8,10 +8,11 @@ export default function Home() {
   return (
       <Default>
       <div className={styles.landing}>
-      <div><Link href = "./bordle">bordle</Link></div>
-      <div><Link href = "./draw">guest book</Link></div>
-      <div><Link href = "./about">about</Link></div>
-      <div className={styles.posts}><Link href = "./posts" >*posts in progress*</Link></div>
+      <Link href = "./posts">posts</Link>
+      <Link href = "./bordle">bordle</Link>
+      <Link href = "./draw">guest book</Link>
+      <Link href = "./about">about</Link>
+      <Link href = "./curriculum-vitae">curriculum-vitae</Link>
       </div>
       </Default>
   )

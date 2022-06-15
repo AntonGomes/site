@@ -2,10 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    float: left;
+    float: center;
 }
 
-.landing div {
+.landing a {
     padding: 10vh 0;
     margin: 1vh;
     text-align: center;
@@ -13,10 +13,6 @@
     height: 30vh;
     width: 30vh;
     text-decoration: underline;
-    color: white;
-}
-
-.landing a {
     color: white;
 }
 

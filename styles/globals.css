@@ -5,7 +5,7 @@ body {
   font-family: Helvetica;
   background: black;
   color: white;
-  font-size: 18px;
+  font-size: clamp(14px, 4vw, 18px);
 }
 
 * {
