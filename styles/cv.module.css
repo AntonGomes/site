@@ -1,10 +1,10 @@
 .nav {
     display: inline-block;
-    width: 10vw;
-    padding-right: 30%;
-    padding-top: 4vh;
+    width: 6vw;
+    margin: auto;
+    padding-right: 5vw;
     position: sticky;
-    top: 4vh;
+    top: 10vh;
     bottom: 10vh;
     height: 100vh;
     float: left;
@@ -19,23 +19,16 @@
 }
 
 .body {
-    width: 60vw;
+    width: 50vw;
     margin: auto 0;
-    margin-left: 15vw;
+    margin-left: 25vw;
     display: block;
     line-height: 1.7;
-    padding-left: 10vw;
 }
 
 .body div {
-    height: 100vh;
-    padding-top: 0.3vh;
-}
-
-.body article {
-    height: 100vh;
-    padding-top: 0.3vh;
-    margin-bottom: 100vh;
+    min-height: 100vh;
+    padding-top: 5vh;
 }
 
 .body a {

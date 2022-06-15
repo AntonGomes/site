@@ -63,7 +63,7 @@ export default function cv() {
         Computer Science and Mathematics BSc. Courses completed so far include Functional Programming (Haskell), Computational Logic, and Object Oriented Programming (Java). 
         </div>
 
-        <article id="projects">
+        <div id="projects">
         
         <h2>Projects</h2>
 
@@ -99,7 +99,7 @@ export default function cv() {
         <p>I began the script as a school project using Visual Basic, but due to my inexpereince, the code was not particuarly elegant or readable. </p>
         <p>This gave me the opportunity to learn the process of <i>refactoring and optimisation.</i> During said process I also decided to translate the code to Python where I ended up with something I can say I am genuinly proud of.</p>
         </section>
-        </article>
+        </div>
 
         </div>
         </Default>
