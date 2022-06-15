@@ -4,9 +4,15 @@
     text-decoration: none;
     border: none;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh
+    width: 100vw;
+    margin-top: 20vh;
+}
+
+.lessBoring {
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 50vh;
 }
 

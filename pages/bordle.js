@@ -49,9 +49,10 @@ export default function bordle(props) {
 
     return(
         <Default>
+        <h1>Anton's Bored</h1>
         <button className={styles.bordle} onClick={getRandomLink}>Bored?</button>
         <div className={styles.lessBoring}>
-        Make bordle less boring:
+        <div>Make bordle less boring:</div>
         <input 
 			type="text"
             value={suggestion} 

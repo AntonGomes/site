@@ -6,6 +6,8 @@
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 15vh;
+    bottom: 5px;
 }
 
 .info {
@@ -31,8 +33,11 @@
 
 .contacts {
     width: 100%;
-    justify-content: space-between;
     display: flex;
+}
+
+.contacts a {
+    margin-right: 2vh;
 }
 
 .contacts a {
