@@ -12,7 +12,7 @@ In this tutorial, I'll deomnstrate how to create a flask app with two simple fun
 ## Stack
 I used Python for its popularity, readability, and ease of use. The Flask framework, while primarily used as its own web development framework, is very useful for hosting simple backend data structures thanks to its simplicity. 
 
-## Gettin started
+## Getting started
 Create the project: 
 ```.bash
 mkdir project

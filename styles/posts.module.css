@@ -1,5 +1,5 @@
 .body {
-    width: 50vw;
+    width: max(400px, 80vw);
     margin: auto;
     line-height: 1.7;
 }
