@@ -15,8 +15,8 @@ export default function Footer(props) {
 
         <ul className={styles.contacts}>
             <li><a href = "https://github.com/AntonGomes" target="_blank">💻</a></li>
-            <li><a href = "https://twitter.com/AomlGomes" target="_blank">>🐣</a></li>  
-            <li><a href = "https://www.linkedin.com/in/anton-gomes-377a97233/" target="_blank">>🤝</a></li>
+            <li><a href = "https://twitter.com/AomlGomes" target="_blank">🐣</a></li>  
+            <li><a href = "https://www.linkedin.com/in/anton-gomes-377a97233/" target="_blank">🤝</a></li>
         </ul>
         </div>
 
