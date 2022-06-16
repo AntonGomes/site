@@ -1,5 +1,6 @@
 .button {
-    margin: 5vh;
+    margin: 2vh;
+    padding:1vh 2vh;
 }
 
 .head {
@@ -7,11 +8,15 @@
 }
 
 .text {
-    width: 100%;
+    width: 100vw;
     margin: auto;
     text-align: center;
 }
 
 .draw {
     display: block;
+    width: 100%;
+    margin: auto;
+    border: 5px solid white;
 }
+

@@ -28,13 +28,11 @@ export default function cv() {
 
         <p>I was introduced to programming through a school project a few years ago. Now, after becoming increasing enthralled by the possibilities and power of coding, I've let an <i>obsession</i> with the field come over me. </p>
 
-        <p>This passion for programming not only led me to study Computing Science at the University of Edinburgh, but has now given me the drive to pursue a career as a software engineer.  </p>
+        <p>This passion for programming not only led me to study Computing Science at the University of Edinburgh, but has now given me the drive to pursue a career as a software developer.  </p>
 
         <p>In my spare time I use my creativity, attentiveness to detail, and focus to imagine and build original projects. I thrive on the sense of achivement these permit.</p>
 
         <p>I am resourceful and able to develop my skills independently. This comes from a knowledge of learning resources and an awareness of my learning practice, allowing me to solve any problems I encounter.</p>
-
-        <p>Check out my <Link href="#projects">favourite projects</Link> below as well as a description of my <Link href="#skills">skill set</Link> and <Link href="#ed">education</Link>.</p>
         </div>
 
 
@@ -44,14 +42,16 @@ export default function cv() {
 
 
          
-        <p><b>Programming Languages<br/> </b>I am adept in Javscript (with ReactJs), HTML, CSS, Java, and Python (with Flask). My experience in these languages comes projects such as <a href="#bordle" > Bordle </a>(Python with Flask), my <a href="#blog" > Markdown blog</a> (ReactJs), a <a href = "#wordle"> Wordle CLI</a> (Python), and <a href="#speechify">Speechify</a> (Python).</p>
+        <p><b>Programming Languages<br/> </b>I am adept in Javscript (with ReactJs), HTML, CSS, Java, and Python (including Flask). My experience in these languages comes from projects such as <a href="#bordle" > Bordle </a>(Python with Flask), my <a href="#blog" > Markdown blog</a> (ReactJs), a <a href = "#wordle"> Wordle CLI</a> (Python), and <a href="#speechify">Speechify</a> (Python).</p>
 
         <p><b>Teamwork (inlcuding Git and GitHub)<br/></b>Occasional collaberation on projects such as a <a href = "#wordle"> Wordle CLI</a>, has enhanced my communication skills and taught me the importace of version control and best practice.</p>
 
-        <p><b>Responsibility & Pressure</b><br/>My experience in teamsports as a regional level player helped me to develope an ability to function in high pressure enviroments, something I nevertheless enjoy. <br/>
-        My time as a boys' club coach educated me on how to handle responsibility, I beleive this to be one of my most vital skills. </p>
+        <p><b>Responsibility & Pressure</b><br/>
+        I enjoy working under pressure, and my experience in teamsports as a regional level player has developed ability to do so. <br/>
+        My time as a junior club's coach taught me on how to handle responsibility, I beleive this to be one of my most vital skills. </p>
 
-        <p><b>Organisation & Interpersonal Skills<br/></b>My occupation as a Service Advisor and Track and Trace Agent in the NHS signifiantly developed my interpersonal skills as the job required constant interaction with customers. I reguarly handled and navigated large data sets and constantly changing guidelines, thus improving my organisation skills.</p>
+        <p><b>Organisation & Interpersonal Skills<br/></b>
+        My occupation as a Service Advisor and Track and Trace Agent in the NHS signifiantly developed my interpersonal skills as the job required constant interaction with customers. I reguarly handled and navigated large data sets and constantly changing guidelines, thus improving my organisation skills.</p>
 
         </div>
 
@@ -73,34 +73,32 @@ export default function cv() {
         <section id="site">
         <h3>antongomes.com </h3>
 
-        <p>I chose to build my personal site with ReactJs, particularly the Nextjs framework due to its popularity and ease of use. </p>
-        <p>I have focused on functionality rather than a content-based website to improve my JavaScript abilities. </p>
-        <p>I use the site to share my projects with a wider user base. I have used a Python (Flask) backend to store and manipulate JSONs for my <Link href="https://antongomes.com/draw">guestbook</Link> and <Link href="#bordle">Bordle</Link>.</p> 
+        <p>I chose to build my personal site with ReactJs, particularly the Nextjs framework owing to its popularity and ease of use. </p>
+        <p>I have focused on functionality, rather than a content-based website, to improve my JavaScript abilities. </p>
+        <p>I use the site to share my projects with a wider user base. I have used a Python (Flask) backend to store and manipulate JSONs for my <Link href="https://antongomes.com/draw">guest book</Link> and <Link href="#bordle">Bordle</Link>.</p> 
         </section>
 
         <section id="bordle">
         <h3>Bordle </h3>
         <p>The concept of Bordle is relatively simple, a button loads a random website from a list of user generated URLs. Users can append URLs to the list (hosted on my backend server) using the available input box.</p>
-        <p>I used the Python Flask framework to reinforce my abilities with Python. This project also familiarised me withthe process of backend development. </p>
+        <p>I used the Python Flask framework to reinforce my abilities with Python. This project also made me familiar with the process of backend development. </p>
         </section>
 
         <section id="wordle">
         <h3>Wordle CLI </h3>
-        <p>Inspired by the sudden rise of the web word game, my friend and I collaborated using GitHub to bring Wordle to the terminal with a realtime CLI version.</p>
-        <p>This project, written in Python, not only taught me the importance of GitHub for online collaboration, but familiarised me with the associated workflow, some examples being; descriptive comments and commits, as well as best practices like readability.</p>
+        <p>Inspired by the sudden rise of the web word game, a friend and I collaborated using GitHub to bring Wordle to the terminal with a real time CLI version.</p>
+        <p>This project, written in Python, not only taught me the importance of GitHub for online collaboration, but gave me and understanding of the associated workflow, some examples being: descriptive comments and commits, as well as best practices like readability.</p>
         </section>
 
         <section id="blog">
         <h3>Markdown blog </h3>
-        This was the first project I implemented on my personal site and so involved a fair amount of debugging and testing. I came to understand the method behind the madness, with some the practices I use today being formed during this time.
+        This was the first project I implemented on my personal site and so involved a fair amount of debugging and testing. I came to understand the method for this process, with some of the practices I use today being formed during this time.
         </section>
 
         <section id="speechify">
         <h3>Speechify</h3>
-        <p>The idea for speechify came to me after reading <i>The Eternal Golden Braid, </i>by Douglas Hofstadter.</p>
-        <p>Speechify reads a literary text and through machine learnig concepts such as weighting and pseodorandom data selection, "re-creates" sentences that resemble those in the text. </p>
-        <p>I began the script as a school project using Visual Basic, but due to my inexpereince, the code was not particuarly elegant or readable. </p>
-        <p>This gave me the opportunity to learn the process of <i>refactoring and optimisation.</i> During said process I also decided to translate the code to Python where I ended up with something I can say I am genuinly proud of.</p>
+        <p>Speechify reads a literary text and through machine learnig concepts such as weighting and pseudorandom data selection, "re-creates" sentences that resemble those in the text. </p>
+        <p>I began the script as a school project using Visual Basic, but recently decided to revisit it. This gave me the opportunity to learn the process of <i>refactoring and optimisation.</i>  I also decided to translate the code to Python as I now use a Unix OS. </p>
         </section>
         </div>
 
