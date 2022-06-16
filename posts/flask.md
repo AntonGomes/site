@@ -1,5 +1,5 @@
 ---
-title: How To - Backend JSON with Flask
+title: Making a Lightweight Backend JSON with Flask
 description: Need a quick and easy backend server? Read on to learn how to read and write a JSON the using Python and the Flask framework.
 date: 27/05/2022
 readTime: 534
@@ -7,11 +7,12 @@ readTime: 534
 
 
 ## Overview
-In this tutorial we will crate our own flask app with three simple functions. Read a json, overwrite a json, and append to a json. No more, no less. This is because for simple sites, such as for personal use or to display a small project, a simple backend is all that's neccessary. With no SQL, no databases, just a json and an app.
+In this tutorial, I'll deomnstrate how to create a flask app with two simple functions. Read a json and write to a json. No more, no less. This is because for simple sites, such as for personal use or to display a small project, a simple backend is all that's neccessary. With no SQL, no databases, just a json and an app.
 
-I used Python for its popularity, readability, and ease of use. The Flask framework, while primarily used as its own web development framework, is very useful for hosting simple backend data structures thanks to (you guessed it...) its simplicity. 
+## Stack
+I used Python for its popularity, readability, and ease of use. The Flask framework, while primarily used as its own web development framework, is very useful for hosting simple backend data structures thanks to its simplicity. 
 
-## Let's get started
+## Gettin started
 Create the project: 
 ```.bash
 mkdir project
@@ -22,7 +23,11 @@ touch person.json
 ```
 You'll want to add some data, so you have something to work with: 
 ```json
-{"name": "anton", "age": "19", "skill-level": 9000}
+{
+  "name": "anton", 
+  "age": "19", 
+  "skill-level": 9000
+}
 ```
 
 Now create an app directory (still within the project directory): 
@@ -76,10 +81,10 @@ We assign this to a variable `'data'` and return it.
 
 In this example we are replacing a person's data, i.e. name, age, skill level. 
 ```py
-def writeToJson(j, object, newData):
+def writeToJson(j, object, value):
     file = open(j, 'r+', encoding='utf-8')
     data = json.load(file)
-    data[object] = newData
+    data[object] = value
     f.seek(0)
     json.dump(data, file)
     file.truncate()
@@ -104,7 +109,7 @@ An object whose data we want to alter:
 Some information to give to the object 
 
 ```
-    newData (dictionary)
+    value (any json supported data type )
 ```
 
 As before, we `open` and `load` the file so that we have a dictionary with the contents of the json.
@@ -131,26 +136,27 @@ def getJson():
     return readFromJson('person.json')
 ```
 
-Then create the route `/setJson` and set it to call the `writeToJson()` funtion:
+Then we have to crate a route which calls `wirteToJson()`. We have three objects in our json, we can name the route depending on which object we want to write to. I'll use `name` as an example: 
 
 ```py
-@app.route("/setJson")
+@app.route("/setName")
 def setJson():
-    person = request.args['person']
-    writeToJson('person.json', 'Elon', person)
+    newName  = request.args['name']
+    writeToJson('person.json', name, newName)
 ```
 
-And if we want to write to the json, we only have to pass in the data as a url query:
+To call this function and pass in our new data, we use a URL query. Simply add `?` after the url and specify the argument:
 
 ```
-https://example.com?person={"name": "Anton, "age": 18, "skill level" : 9000}
+https://example.com/setName?name=shmanton
 ```
+Then `request.args['name']` picks up this query and assigns our new value to `newName`, which is passed into `writeToJson()`.
 
 ## Test it out! 
 
 Create another python file called wsgi.py in your project directory (not within app). 
     
-*In case you were wondering...*
+*Note:*
 `'wsgi'` stands for Web Server Gateway Interface and is just a calling convention used for web servers to forward requests to web apps.
 
 In `wsgi.py` write:
@@ -167,34 +173,32 @@ This simply imports and runs our app, so if we want to try it out, all we need t
 $ python3 wsgi.py
 ```
 
-This will present you with:
-```shell
- * Serving Flask app 'app.main' (lazy loading)
- * Environment: production
-     WARNING: This is a development server. Do not use it in a production deployment.
-     Use a production WSGI server instead.
- * Debug mode: off
- * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
-```
+`Crtl` click on the link provided (usually http://127.0.0.1:5000) to view your json. This url is running our getJson() function.
 
-Crtl click on http://127.0.0.1:5000 to view your json. This url is running our getJson() function.
-
-To alter some data we'll have to change the route of the url and add a query, so that our function has some new data to work with. We use a question mark after the route to write our query:
+Now we can use routes and queries just as in the example above:
 ```
-http://127.0.0.1:5000/setJson?name=jeff
+http://127.0.0.1:5000/setJson?name=shmanton
 ```
 #### before
 ```json
-    {"name": "anton", "age": 19, "skill-level": 9000}
+{
+  "name": "anton",
+  "age": 19,
+  "skill-level": 9000
+}
 ```
 
 #### after
 ```json
-    {"name": "jeff", "age": "19", "skill-level": 9000}
+{
+  "name": "shmanton",
+  "age": 19,
+  "skill-level": 9000
+}
 ```
 And that's it! Your very own mini database. You can easily change the functions we wrote to allow you to edit your json further (i.e. append, overwrite, etc.). 
 
-Use cases include an online leaderboard, a commenting system, or even my very own [bordle project!](https://antongomes.com/bordle)
+Use cases include an online leaderboard, a commenting system, or even my very own [bordle](https://antongomes.com/bordle) project!
 
 If you want to deploy your app, I highly reccomend Heroku. It's free to use, easy to understand ad has excellent documentation. And the cherry on top... **I have a tutorial coming soon!** 
 
