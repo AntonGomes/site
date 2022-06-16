@@ -30,16 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/bordle": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/bordle.js"
-    ],
-    "/curriculum-vitae": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/curriculum-vitae.js"
-    ],
     "/draw": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
