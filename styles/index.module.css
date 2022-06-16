@@ -24,4 +24,8 @@
     color: pink;
 }
 
+.body {
+    min-height: calc(100vh - 1em);
+}
+
 
