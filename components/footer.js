@@ -26,7 +26,8 @@ export default function Footer(props) {
             <li><a href = "./about">about</a></li>
             <li><a href = "./draw">guest book</a></li>
             <li><a href = "./bordle">bordle</a></li>
-            <li><a href = "./posts">*posts coming soon*</a></li>
+            <li><a href = "./posts">posts</a></li>
+            <li><a href = "./curriculum-vitae">CV</a></li>
         </ul>
         </div>
         </div>

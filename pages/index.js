@@ -13,7 +13,7 @@ export default function Home() {
       <Link href = "./bordle">bordle</Link>
       <Link href = "./draw">guest book</Link>
       <Link href = "./about">about</Link>
-      <Link href = "./curriculum-vitae">curriculum-vitae</Link>
+      <Link href = "./curriculum-vitae">CV</Link>
       </div>
       </Default>
   )
