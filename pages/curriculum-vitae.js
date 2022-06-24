@@ -30,7 +30,7 @@ export default function cv() {
 
         <p>This passion for programming not only led me to study Computing Science at the University of Edinburgh, but has now given me the drive to pursue a career as a software developer.  </p>
 
-        <p>In my spare time I use my creativity, attentiveness to detail, and focus to imagine and build original projects. I thrive on the sense of achivement these permit.</p>
+        <p>In my spare time I use my creativity, attentiveness to detail, and focus to imagine and build original projects. I thrive on the sense of achievement these permit.</p>
 
         <p>I am resourceful and able to develop my skills independently. This comes from a knowledge of learning resources and an awareness of my learning practice, allowing me to solve any problems I encounter.</p>
         </div>
@@ -44,14 +44,14 @@ export default function cv() {
          
         <p><b>Programming Languages<br/> </b>I am adept in Javscript (with ReactJs), HTML, CSS, Java, and Python (including Flask). My experience in these languages comes from projects such as <a href="#bordle" > Bordle </a>(Python with Flask), my <a href="#blog" > Markdown blog</a> (ReactJs), a <a href = "#wordle"> Wordle CLI</a> (Python), and <a href="#speechify">Speechify</a> (Python).</p>
 
-        <p><b>Teamwork (inlcuding Git and GitHub)<br/></b>Occasional collaberation on projects such as a <a href = "#wordle"> Wordle CLI</a>, has enhanced my communication skills and taught me the importace of version control and best practice.</p>
+        <p><b>Teamwork (inlcuding Git and GitHub)<br/></b>Occasional collaboration on projects such as a <a href = "#wordle"> Wordle CLI</a>, has enhanced my communication skills and taught me the importance of version control and best practice.</p>
 
         <p><b>Responsibility & Pressure</b><br/>
         I enjoy working under pressure, and my experience in teamsports as a regional level player has developed ability to do so. <br/>
-        My time as a junior club's coach taught me on how to handle responsibility, I beleive this to be one of my most vital skills. </p>
+        My time as a junior club's coach taught me on how to handle responsibility, I believe this to be one of my most vital skills. </p>
 
         <p><b>Organisation & Interpersonal Skills<br/></b>
-        My occupation as a Service Advisor and Track and Trace Agent in the NHS signifiantly developed my interpersonal skills as the job required constant interaction with customers. I reguarly handled and navigated large data sets and constantly changing guidelines, thus improving my organisation skills.</p>
+        My occupation as a Service Advisor and Track and Trace Agent in the NHS significantly developed my interpersonal skills as the job required constant interaction with customers. I regularly handled and navigated large data sets and constantly changing guidelines, thus improving my organisation skills.</p>
 
         </div>
 
