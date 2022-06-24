@@ -46,6 +46,7 @@ export default function Draw(props) {
         <button className={styles.button} onClick={() => {canvas.current.undo()}}>
 	    undo
 		</button>
+        <p><i>FYI: This page resets every 24 hours</i></p>
 
 
         </div>
