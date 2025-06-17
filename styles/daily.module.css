@@ -1,0 +1,66 @@
+.body {
+    width: max(400px, 80vw);
+    margin: auto;
+    line-height: 1.7;
+}
+
+.body li {
+    padding-top: 1vh;
+    margin-top: 1vh;
+    text-align: left;
+}
+
+.body a {
+    text-decoration: underline;
+    color: black;
+}
+.body a:hover {
+    color: pink;
+}
+
+.body ul {
+    padding: none;
+}
+
+.postList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .postList li {
+    flex: 0 1 150px; /* responsive size, tweak as needed */
+  }
+  
+  .postBox {
+    aspect-ratio: 1 / 1;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2rem;
+    transition: background-color 0.2s ease;
+    height: 100%; /* ensure square */
+    box-sizing: border-box;
+  }
+  
+  .postBox:hover {
+    background-color: pink;
+  }
+  
+  .postDate {
+    align-self: center; /* horizontally centre the date */
+    margin-bottom: 0.5rem; /* some space between date and content */
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .postContent {
+    font-size: 10px;
+    text-align: left;
+    word-wrap: break-word;
+    margin-top: 0.25rem;
+  }

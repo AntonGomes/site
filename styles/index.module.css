@@ -1,31 +1,31 @@
 .landing {
     display: flex;
+    text-align: left;
     flex-wrap: wrap;
     justify-content: space-around;
     float: center;
+    margin: auto;
+    width: 70vh;
 }
 
-.landing a {
-    padding: 10vh 0;
-    margin: 1vh;
-    text-align: center;
-    border: 5px solid white;
-    height: 30vh;
-    width: 30vh;
+.body ul a {
     text-decoration: underline;
-    color: white;
+    color: black;
 }
 
-.landing .posts {
-    border: 5px dashed white;
-}
-
-.landing a:hover {
+.body ul a:hover {
     color: pink;
 }
 
 .body {
     min-height: calc(100vh - 1em);
+    text-align: center;
 }
+
+  .body ul {
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+  }
 
 

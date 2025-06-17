@@ -23,11 +23,9 @@ export default function Footer(props) {
         <div className={styles.pages}>
         <ul> 
             <li><a href = "./">home</a></li>
-            <li><a href = "./about">about</a></li>
-            <li><a href = "./draw">guest book</a></li>
-            <li><a href = "./bordle">bordle</a></li>
             <li><a href = "./posts">posts</a></li>
-            <li><a href = "./curriculum-vitae">CV</a></li>
+            <li><a href = "./posts">daily blog</a></li>
+            <li><a href = "./cv">CV</a></li>
         </ul>
         </div>
         </div>

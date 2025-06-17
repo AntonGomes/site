@@ -1,5 +1,5 @@
 import ReactMarkdown from 'react-markdown'
-import {getPostSlugs, getPostBySlug} from '../../lib/postsAPI'
+import {getDailySlugs, getDailyBySlug} from '../../lib/dailyAPI'
 import Default from "../../components/default.jsx"
 import styles from "../../styles/slug.module.css"
 import remarkGfm from 'remark-gfm'
@@ -9,7 +9,7 @@ import {dracula} from 'react-syntax-highlighter/dist/cjs/styles/prism'
 function Post(props) {
     return (
         <Default>
-        <h1 className={styles.title}>{props.post.title || ""}</h1>
+        <h1 className={styles.title}>{props.post.date || ""}</h1>
         <div className={styles.body}>
         <ReactMarkdown 
             children={props.post.content} 
@@ -40,15 +40,15 @@ function Post(props) {
 
 export async function getStaticProps({params}) {
     console.log(params.slug)
-    const post = await getPostBySlug(params.slug + ".md")
+    const post = await getDailyBySlug(params.slug + ".md")
     return {props: {post: post}}
 }
 
 export async function getStaticPaths(){
-    let slugs = getPostSlugs()
+    let slugs = getDailySlugs()
     console.log(slugs)
     return {
-        paths: slugs.map(slug => '/posts/' + slug.replace('.md', '')),
+        paths: slugs.map(slug => '/daily/' + slug.replace('.md', '')),
         fallback: false,
     }
 }
