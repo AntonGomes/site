@@ -1,5 +1,5 @@
 import ReactMarkdown from 'react-markdown'
-import {getPostSlugs, getPostBySlug} from '../../utils/postsAPI'
+import {getPostSlugs, getPostBySlug} from '../../lib/postsAPI'
 import Default from "../../components/default.jsx"
 import styles from "../../styles/slug.module.css"
 import remarkGfm from 'remark-gfm'

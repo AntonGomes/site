@@ -19,7 +19,7 @@
 }
 
 .nav a {
-    color: white;
+    color: black;
     font-weight: bold;
     display: block;
     text-decoration: none;
@@ -46,7 +46,7 @@
 .body a {
     text-decoration: underline;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 

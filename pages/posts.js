@@ -1,6 +1,6 @@
 import Link from "next/link"
 import {useState} from 'react'
-import {getAllPosts} from "../utils/postsAPI"
+import {getAllPosts} from "../lib/postsAPI"
 import styles from "../styles/posts.module.css"
 import Default from "../components/default.jsx"
 
@@ -15,15 +15,8 @@ export default function Posts(props) {
 
     return (
         <Default>
-        <h1>Anton's Posts</h1>
+        <h1>Anton's Blog</h1>
         <div className={styles.body}>
-        <div className={styles.input}>
-            <input 
-                type="search" 
-                onChange={e => setInput(e.target.value)} 
-                placeholder="search..."
-        />
-        </div>
             <ul>
             {
                 filteredPosts.map(post => {
@@ -32,7 +25,6 @@ export default function Posts(props) {
                             <h1><Link href={post.slug.replace(".md", "")}>{post.title}</Link></h1>
                             <p>{post.description}</p>
                             <p>{post.date}</p>
-                            <p>This post will take {post.readTime} seconds to read.</p>
                         </li>
                     )
 
