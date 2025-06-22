@@ -1,6 +1,7 @@
 accessibility:
   icons:
     - accessible-icon
+    - address-card
     - audio-description
     - braille
     - circle-info
@@ -38,6 +39,7 @@ alert:
 alphabet:
   icons:
     - a
+    - address-card
     - b
     - c
     - circle-h
@@ -218,6 +220,7 @@ arrows:
   label: Arrows
 astronomy:
   icons:
+    - binoculars
     - globe
     - meteor
     - moon
@@ -422,11 +425,13 @@ business:
     - square-phone-flip
     - square-poll-horizontal
     - square-poll-vertical
+    - stapler
     - table
     - table-columns
     - tag
     - tags
     - thumbtack
+    - thumbtack-slash
     - timeline
     - trademark
     - vault
@@ -501,14 +506,18 @@ charts-diagrams:
     - chart-area
     - chart-bar
     - chart-column
+    - chart-diagram
     - chart-gantt
     - chart-line
     - chart-pie
     - chart-simple
+    - circle-half-stroke
     - diagram-next
     - diagram-predecessor
     - diagram-project
     - diagram-successor
+    - hexagon-nodes
+    - hexagon-nodes-bolt
     - square-poll-horizontal
     - square-poll-vertical
   label: Charts + Diagrams
@@ -552,6 +561,8 @@ clothing-fashion:
     - shoe-prints
     - socks
     - user-tie
+    - vest
+    - vest-patches
   label: Clothing + Fashion
 coding:
   icons:
@@ -562,6 +573,7 @@ coding:
     - box-archive
     - bug
     - bug-slash
+    - chart-diagram
     - circle-nodes
     - code
     - code-branch
@@ -570,6 +582,8 @@ coding:
     - code-fork
     - code-merge
     - code-pull-request
+    - comment-nodes
+    - css
     - cube
     - cubes
     - diagram-project
@@ -581,19 +595,25 @@ coding:
     - folder
     - folder-open
     - font-awesome
+    - gear
     - gears
+    - hexagon-nodes
+    - hexagon-nodes-bolt
     - keyboard
     - laptop-code
     - microchip
     - mug-saucer
     - network-wired
+    - notdef
     - qrcode
     - rectangle-xmark
     - shield
     - shield-halved
     - sitemap
+    - square-binary
     - terminal
     - user-secret
+    - web-awesome
     - window-maximize
     - window-minimize
     - window-restore
@@ -609,6 +629,7 @@ communication:
     - comment
     - comment-dots
     - comment-medical
+    - comment-nodes
     - comment-slash
     - comment-sms
     - comments
@@ -660,6 +681,7 @@ connectivity:
     - cloud
     - cloud-arrow-down
     - cloud-arrow-up
+    - ethernet
     - globe
     - house-signal
     - rss
@@ -752,10 +774,12 @@ design:
     - splotch
     - spray-can
     - stamp
+    - stapler
     - swatchbook
     - vector-square
     - wand-magic
     - wand-magic-sparkles
+    - web-awesome
   label: Design
 devices-hardware:
   icons:
@@ -808,7 +832,7 @@ disaster:
     - biohazard
     - bugs
     - burst
-    - child-rifle
+    - child-combatant
     - circle-radiation
     - cloud-bolt
     - cloud-showers-heavy
@@ -862,6 +886,7 @@ editing:
     - ellipsis-vertical
     - eye-dropper
     - eye-slash
+    - gear
     - grip
     - grip-lines
     - grip-lines-vertical
@@ -1017,6 +1042,8 @@ files:
     - file-csv
     - file-excel
     - file-export
+    - file-fragment
+    - file-half-dashed
     - file-image
     - file-import
     - file-lines
@@ -1162,8 +1189,8 @@ gaming:
     - shield-halved
     - skull-crossbones
     - square-full
+    - square-steam
     - steam
-    - steam-square
     - steam-symbol
     - twitch
     - vr-cardboard
@@ -1373,7 +1400,7 @@ humanitarian:
     - car
     - car-on
     - car-tunnel
-    - child-rifle
+    - child-combatant
     - children
     - church
     - circle-h
@@ -1494,7 +1521,7 @@ humanitarian:
     - mountain-sun
     - oil-well
     - parachute-box
-    - people-arrows-left-right
+    - people-arrows
     - people-group
     - people-line
     - people-pulling
@@ -1589,7 +1616,7 @@ humanitarian:
     - square-nfi
     - square-person-confined
     - square-virus
-    - staff-aesculapius
+    - staff-snake
     - stethoscope
     - suitcase-medical
     - sun-plant-wilt
@@ -1775,6 +1802,7 @@ maps:
     - location-pin-lock
     - magnet
     - magnifying-glass
+    - magnifying-glass-location
     - magnifying-glass-minus
     - magnifying-glass-plus
     - map
@@ -1782,6 +1810,7 @@ maps:
     - martini-glass-empty
     - money-bill
     - money-bill-1
+    - monument
     - motorcycle
     - mountain-sun
     - mug-saucer
@@ -1823,6 +1852,7 @@ maps:
     - tags
     - taxi
     - thumbtack
+    - thumbtack-slash
     - ticket
     - ticket-simple
     - traffic-light
@@ -1978,6 +2008,8 @@ medical-health:
     - crutch
     - disease
     - dna
+    - droplet
+    - droplet-slash
     - eye
     - eye-dropper
     - file-medical
@@ -1987,6 +2019,7 @@ medical-health:
     - flask
     - flask-vial
     - hand-dots
+    - hand-holding-droplet
     - hand-holding-medical
     - head-side-cough
     - head-side-cough-slash
@@ -2040,7 +2073,7 @@ medical-health:
     - square-h
     - square-plus
     - square-virus
-    - staff-aesculapius
+    - staff-snake
     - star-of-life
     - stethoscope
     - suitcase-medical
@@ -2050,6 +2083,7 @@ medical-health:
     - teeth-open
     - thermometer
     - tooth
+    - truck-droplet
     - truck-medical
     - user-doctor
     - user-nurse
@@ -2071,6 +2105,7 @@ money:
   icons:
     - austral-sign
     - baht-sign
+    - bangladeshi-taka-sign
     - bitcoin
     - bitcoin-sign
     - brazilian-real-sign
@@ -2185,6 +2220,7 @@ music-audio:
     - volume-low
     - volume-off
     - volume-xmark
+    - wave-square
   label: Music + Audio
 nature:
   icons:
@@ -2309,6 +2345,7 @@ religion:
     - book-bible
     - book-journal-whills
     - book-quran
+    - book-tanakh
     - church
     - cross
     - dharmachakra
@@ -2384,6 +2421,7 @@ science-fiction:
     - old-republic
     - robot
     - rocket
+    - space-awesome
     - user-astronaut
   label: Science Fiction
 security:
@@ -2457,6 +2495,7 @@ shapes:
     - calendar
     - certificate
     - circle
+    - circle-half-stroke
     - cloud
     - clover
     - comment
@@ -2473,6 +2512,7 @@ shapes:
     - shapes
     - shield
     - square
+    - square-binary
     - star
     - ticket-simple
   label: Shapes
@@ -2543,11 +2583,13 @@ shopping:
 social:
   icons:
     - bell
+    - bluesky
     - cake-candles
     - camera
     - circle-user
     - comment
     - envelope
+    - facebook
     - hashtag
     - heart
     - icons
@@ -2561,6 +2603,7 @@ social:
     - share
     - share-from-square
     - share-nodes
+    - square-bluesky
     - square-poll-horizontal
     - square-poll-vertical
     - square-share-nodes
@@ -2568,6 +2611,7 @@ social:
     - thumbs-down
     - thumbs-up
     - thumbtack
+    - thumbtack-slash
     - user
     - user-group
     - user-plus
@@ -2576,6 +2620,9 @@ social:
   label: Social
 spinners:
   icons:
+    - arrow-rotate-left
+    - arrow-rotate-right
+    - arrows-rotate
     - arrows-spin
     - asterisk
     - atom
@@ -2593,6 +2640,8 @@ spinners:
     - palette
     - ring
     - rotate
+    - rotate-left
+    - rotate-right
     - slash
     - snowflake
     - spinner
@@ -2671,7 +2720,10 @@ text-formatting:
     - superscript
     - table
     - table-cells
+    - table-cells-column-lock
     - table-cells-large
+    - table-cells-row-lock
+    - table-cells-row-unlock
     - table-columns
     - table-list
     - text-height
@@ -2693,8 +2745,8 @@ time:
     - calendar-xmark
     - clock
     - hourglass
-    - hourglass-empty
     - hourglass-end
+    - hourglass-half
     - hourglass-start
     - stopwatch
     - stopwatch-20
@@ -2724,6 +2776,7 @@ transportation:
     - bicycle
     - bus
     - bus-simple
+    - cable-car
     - car
     - car-burst
     - car-rear
@@ -2781,6 +2834,7 @@ travel-hotel:
     - briefcase
     - bus
     - bus-simple
+    - cable-car
     - car
     - caravan
     - cart-flatbed-suitcase
@@ -2830,6 +2884,7 @@ travel-hotel:
     - suitcase-rolling
     - taxi
     - toilet
+    - toilet-paper
     - train-tram
     - tree-city
     - tv
@@ -2875,7 +2930,7 @@ users-people:
     - id-card-clip
     - image-portrait
     - mars-and-venus-burst
-    - people-arrows-left-right
+    - people-arrows
     - people-carry-box
     - people-group
     - people-line
@@ -3023,6 +3078,7 @@ writing:
     - folder-open
     - keyboard
     - newspaper
+    - notdef
     - note-sticky
     - paper-plane
     - paperclip
@@ -3036,4 +3092,5 @@ writing:
     - signature
     - square-pen
     - thumbtack
+    - thumbtack-slash
   label: Writing

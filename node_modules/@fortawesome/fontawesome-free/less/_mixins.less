@@ -41,33 +41,28 @@
   }
 }
 
-// convenience mixins for declaring pseudo-elements by CSS variable,
-// including all style-specific font properties, and both the ::before
-// and ::after elements in the duotone case.
-.fa-icon-solid(@fa-var) {
-  .fa-icon;
-  .fa-solid;
+// sets a specific icon family to use alongside style + icon mixins
+.fa-family-classic() {
+  &:extend(.fa-classic all);
+}
 
-  &::before {
-    content: @fa-var;
-  }
+// convenience mixins for declaring pseudo-elements by CSS variable,
+// including all style-specific font properties
+.fa-icon-solid(@fa-var) {
+  &:extend(.fa-solid all);
+
+  & { @{fa-icon-property}: @fa-var; @{fa-duotone-icon-property}: %("%s%s", @fa-var, @fa-var); }
 }
 
 .fa-icon-regular(@fa-var) {
-  .fa-icon;
-  .fa-regular;
+  &:extend(.fa-regular all);
 
-  &::before {
-    content: @fa-var;
-  }
+  & { @{fa-icon-property}: @fa-var; @{fa-duotone-icon-property}: %("%s%s", @fa-var, @fa-var); }
 }
 
 .fa-icon-brands(@fa-var) {
-  .fa-icon;
-  .fa-brands;
+  &:extend(.fa-brands all);
 
-  &::before {
-    content: @fa-var;
-  }
+  & { @{fa-icon-property}: @fa-var; @{fa-duotone-icon-property}: %("%s%s", @fa-var, @fa-var); }
 }
 
