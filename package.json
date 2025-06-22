@@ -41,5 +41,8 @@
   "bugs": {
     "url": "https://github.com/AntonGomes/site/issues"
   },
-  "homepage": "https://github.com/AntonGomes/site#readme"
+  "homepage": "https://github.com/AntonGomes/site#readme",
+  "engines": {
+	  "node": "18.x"
+  }
 }
