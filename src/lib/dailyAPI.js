@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const dailyDir = path.join(process.cwd(), 'daily');
+const dailyDir = path.join(process.cwd(), '/src/daily');
 
 export function getDailySlugs() {
   return fs.readdirSync(dailyDir);
