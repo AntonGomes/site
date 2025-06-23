@@ -1,14 +1,13 @@
 import matter from 'gray-matter';
 import fs from 'fs';
 import {join} from 'path';
-import Link from 'next/link'
 
 export function getPostSlugs() {
-    return fs.readdirSync('./posts')
+    return fs.readdirSync('./src/posts')
 }
 
 export function getPostBySlug(slug) {
-    const path = join(process.cwd(), '/posts/' + slug)
+    const path = join(process.cwd(), '/src/posts/' + slug)
     const fileContent = fs.readFileSync(path, 'utf8')
     const meta = matter(fileContent)
     const post = meta.data
