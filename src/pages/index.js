@@ -42,7 +42,7 @@ export default function Home({ posts }) {
             <div className={styles.landing}>
               Hello, my name is Anton and I care about AI, maths, and other things. <br/><br/>
 
-              I've been trying to write more. My qualifications are a degree in Computer Science + Maths from the University of Edinburgh and have interned/worked with AI startups since 2022. <br/><br/>
+              I've been trying to write more. My qualifications are a degree in Computer Science + Maths from the University of Edinburgh and I have interned/worked with AI startups since 2022. <br/><br/>
               
               <Link href='/cv.pdf' className={styles.cv}>See my full CV.</Link> <br/><br/>
 
