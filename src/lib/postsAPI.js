@@ -1,14 +1,15 @@
 import matter from 'gray-matter';
-import fs from 'fs';
 import {join} from 'path';
+import { promises as fs } from 'fs';
 
-export function getPostSlugs() {
-    return fs.readdirSync('./src/posts')
+export async function getPostSlugs() {
+    return fs.readdir('./src/posts')
 }
 
-export function getPostBySlug(slug) {
+export async function getPostBySlug(slug) {
     const path = join(process.cwd(), '/src/posts/' + slug)
-    const fileContent = fs.readFileSync(path, 'utf8')
+    console.log("path", path )
+    const fileContent = await fs.readFile(path, 'utf8')
     const meta = matter(fileContent)
     const post = meta.data
     const content = meta.content
@@ -23,10 +24,10 @@ export function getPostBySlug(slug) {
 }
 
 export async function getAllPosts() {
-    const slugs = getPostSlugs()
-    const posts = slugs.map(post => {
-        const p = getPostBySlug(post)
+    const slugs = await getPostSlugs()
+    const posts = await Promise.all(slugs.map(async post => {
+        const p = await getPostBySlug(post)
         return p
-    })
+    }))
     return posts
 }

@@ -45,8 +45,8 @@ export async function getStaticProps({params}) {
 }
 
 export async function getStaticPaths(){
-    let slugs = getPostSlugs()
-    console.log(slugs)
+    let slugs = await getPostSlugs()
+    console.log("slugs", slugs)
     return {
         paths: slugs.map(slug => '/posts/' + slug.replace('.md', '')),
         fallback: false,

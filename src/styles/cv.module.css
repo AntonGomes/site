@@ -1,52 +1,30 @@
-.cv {
-    /*display: flex;
-    flex-flow: column wrap;
-    height: 400vh;
-    overflow: hidden;
-    */
+.cvContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: calc(100vh - 120px);
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.nav {
-    width: 20vw;
-    float: left;
-    min-height: 100vh;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    font-size: clamp(10px, 4vw, 20px);
-    display: table;
-    position: sticky;
-    top: 10vh
+.cvPdf {
+    width: 100%;
+    max-width: 900px;
+    height: 80vh;
+    min-height: 600px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.nav a {
-    color: black;
-    font-weight: bold;
-    display: block;
-    text-decoration: none;
-}
-
-.body {
-    line-height: 1.7;
-    margin: auto;
-    width: 40vw;
-}
-
-@media screen and ( max-width: 800px ){
-    .body {
-        margin-right: 10px;
-        width: 60vw;
+@media (max-width: 768px) {
+    .cvContainer {
+        padding: 1rem 0.5rem;
+    }
+    
+    .cvPdf {
+        height: 70vh;
+        min-height: 500px;
     }
 }
-
-.body div {
-    min-height: 100vh;
-    padding-top: 5vh;
-}
-
-.body a {
-    text-decoration: underline;
-    font-weight: bold;
-    color: black;
-}
-
-
