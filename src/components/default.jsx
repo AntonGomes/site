@@ -1,4 +1,5 @@
 import styles from "../styles/default.module.css"
+import { Analytics } from '@vercel/analytics/next';
 import Link from 'next/link'
 import {useEffect} from 'react'
 import Helmet from 'react-helmet';
@@ -28,6 +29,7 @@ export default function Default(props) {
             <div className={styles.body}>
             {props.children}
             </div>
+            <Analytics />
             </div>
         )
     }
