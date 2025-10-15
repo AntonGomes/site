@@ -5,6 +5,8 @@ date: 10/10/2025
 readTime: 726
 ---
 
+![MS paint drawn thinking emoji meme](/thonker.jpg)
+
 At university, I took a compulsory algebra class in third year. Up until this point the mathematics we were studying had been relatively easy to digest, provided you put in the hours. One day my friends and I were stuck on a problem which used a particularly tricky theorem (I wish I could remember what), when we asked for some help the professor told me something that always stuck with me.
 
 > "*Just stare at it a bit longer."*
