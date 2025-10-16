@@ -1,4 +1,3 @@
-import styles from "../styles/default.module.css"
 import { Analytics } from '@vercel/analytics/next';
 import Link from 'next/link'
 import {useEffect} from 'react'
@@ -12,7 +11,7 @@ export default function Default(props) {
 
 
    return (
-            <div> 
+            <div className="bg-stone-50 min-h-screen px-4 sm:px-6 lg:px-8 "> 
             <Helmet>
             <title>Anton's Site</title>
             <meta
@@ -21,14 +20,20 @@ export default function Default(props) {
             />
             </Helmet>
             
-            <h2 className={styles.head}>
-            <Link href="/" >🏠</Link>
-            </h2>
-       
-            <h1 className="">Anton's Site</h1>
-            <div className={styles.body}>
-            {props.children}
-            </div>
+            <nav className="bg-stone-50">
+              <div className="h-16 flex items-center px-4">
+                <Link 
+                  href="/" 
+                  className="text-2xl hover:text-pink-500 transition-colors duration-200"
+                >
+                  🏠
+                </Link>
+              </div>
+            </nav>
+            
+            <main>
+              {props.children}
+            </main>
             <Analytics />
             </div>
         )
