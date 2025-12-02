@@ -1,0 +1,46 @@
+---
+title: Impending doom and what to make of it
+description: 
+date: 2/12/2025
+readTime: 1002
+---
+
+![Bain, Master Splinter and Uncle Ben](/impending.jpg)
+
+Watching the news the other day, I had the thought: has it always been like this? While the past does seem slightly more logical and less unkempt, I was wondering if that was just the passing years filtering out the nonsense. But according to the half a dozen millennials, gen-X'ers, and boomers I pestered with this question, it actually hasn't always been like this. In fact, the general consensus seems to be that something changed in 2016 (I wonder what?). I've only really been paying attention to what's been happening since after 2016, so for most of my and every other young person's post-childhood existence it has, indeed, always been like this. 
+
+What's *this* you ask? Climate change and its impacts aren't imagined or speculated, they are seen every day. We have constant political unrest with a rise in extremism and the collapse of the rule of law. There was a global pandemic (in case you forgot), the entry-level job market has certainly seen better days, and social media has fuelled a mental health crisis. Most would agree that things could be better. I'm no expert on anything really, but especially grand topics like those mentioned above. What I can talk about is how I'm approaching what is supposed to be "the prime of my youth" and as a lens, I'd like to use the one divisive topic I have yet to mention
+
+#### Master Splinter's and Uncle Ben's Hot Take on AI
+
+Most would agree that AI is not a fad (looking at you web3), but most would not agree on the impact AI is having and going to have on the world. In my personal experience the vast majority of people have an outward-facing scepticism towards the technology; myself included, but I have also seen a quiet, cautious excitement; myself included. The word *awesome* (in the biblical sense) comes to mind. AI is fascinatingly useful and while it is easy to minimise it to *just maths*, the emergent qualities that *just maths* incur have an undoubtedly mystical feel to them [^1].
+
+There's a million and one reasons that people are sceptical or cynical towards AI, but they fall into three main buckets. Impact on the environment, impact on society, and a denial of its usefulness. I'm still making my mind up about the impact on the environment via the energy consumption of data centres, but I won't hear an argument that AI is causing water shortages after it has been [thoroughly debunked](https://andymasley.substack.com/p/the-ai-water-issue-is-fake?utm_source=substack&utm_campaign=post_embed&utm_medium=web). 
+
+The argument for a negative impact on society is based in the notion that overuse of AI causes a decline in critical thinking. This I'm also not sure about to be honest, but I do know that there is nothing that AI is used for now that could not be achieved by searching the web and collecting the information yourself; the difference is in the ease of access. The exception is of course in AI being used for writing. While it's definitely true that it can be impossible to discern frontier model slop from not (anyone who disagrees feel free to [take it up with MIT](https://mitsloanedtech.mit.edu/ai/teach/ai-detectors-dont-work/)), I'm fairly confident that due to the underlying technology and human taste, there is no way for AI to have the unique *je ne sais quoi* of a genuinely human piece of writing. 
+
+Finally, there's the denial of the usefulness of AI, which I find continually frustrating. My favourite analogy for this is the invention of the iPhone. When Steve Jobs unveiled the iPhone in 2007 it was praised for its ingenuity and represented a step change in our relationship to technology. But was the iPhone a perfect product? Of course it wasn't; it froze, crashed, had security flaws, display defects; *just like any new technology*. But the iPhone was a massive success because the public opinion rallied around the benefits the technology could bring. 
+
+So why has this not happened for AI? I can't see any other reason than people being scared of it; it is literally science fiction. We've already talked about its *magic* qualities and to quote Master Splinter in *Teenage Mutant Ninja Turtles: Out of the Shadows*, "People fear what they do not understand". But admitting you're scared of something isn't easy, so instead we throw insults at our poor robot friends, *literally calling them stupid*. The great [Noah Smith](https://www.noahpinion.blog/p/i-love-ai-why-doesnt-everyone) puts it best:
+
+> No, AI doesn’t always get everything right. It makes mistakes fairly regularly. But I never expected engineers to be able to create some kind of infallible god-oracle that knows every truth in the Universe. C-3PO gets stuff confidently wrong all the time, as does the computer on Star Trek. For that matter, so does my dad. So does every human being I’ve ever met, and every news website I’ve ever read, and every social media account I’ve ever followed. Just like with every other source of information and assistance you’ve ever encountered in your life, AI needs to be cross-checked before you can believe 100% in whatever it tells you. Infallible omniscience is still beyond the reach of modern engineering.
+
+Is AI our new benevolent overlord who has come to forgive us of our ability to think? No; is this an incredibly powerful *and useful* technology? I'd say so, but as Uncle Ben says: "with great power comes great responsibility". The regulation and education surrounding the development of AI is absolutely crucial, and should really be where we are directing our criticism and scepticism. Instead, we waste time and energy criticising something for what it can't do, rather than making the most of what it can. 
+
+#### Bain's Socratic Wisdom
+
+So what am I getting at? It might feel like the sky is falling down, and that's because in a lot of ways, it is. As I said to my mum this morning, "You merely adopted the dark; I was born in it" [^2]. For my generation the world has always been a mess, and as I navigate the beginning of my career, the uncertainty of the future has never felt so prevalent. The breadth of options available to ambitious youngsters is nothing less than paralysing, from analyst, to consultant, to product manager, to data scientist, to engineer, to fintech, to founder, to impact startup, to big tech, to big 4, to further education, to nothing at all. And combined with a general sense of uncertainty, a [rise in poor mental health in young people](https://www.google.com/search?q=is+mental+healt+in+young+people+gettign+worse&rlz=1C5CHFA_enGB1113GB1113&oq=is+mental+healt+in+young+people+gettign+worse&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMggIAhAAGBYYHjINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTIKCAYQABiABBiiBDIHCAcQABjvBTIKCAgQABiiBBiJBdIBCDU2NThqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8) is unfortunately not surprising.
+
+I have been described as an optimistic person, which I would agree with, and even optimistic to a fault, which I would also agree with. In such an uncertain world optimism can be no less than a matter of personal choice. I choose to be optimistic. I can choose to be optimistic because I am young, mentally well, incredibly naive, and wholly ignorant. I do my best to educate myself on whatever I can, I keep an open mind for any topic I encounter, but unfortunately my willingness to not be ignorant, to not be naive, and more than either: to not appear as such; is unfortunately useless. And if you don't think this applies to you, then tell me honestly if you think you are smarter now than you were last year? What about last week? What about yesterday? We are constantly experiencing new things and learning from them, so when we encounter a similar something we are slightly less ignorant towards it than we were before. 
+
+You can call this awareness Socratic Wisdom if you like:
+
+> "I know that I don't know"
+
+Or you can call it common sense. The point is that there is nothing I can do about not knowing, just like there is nothing I can do about the future. I am aware of my ignorance of potentially impending doom, and in my ignorance I have bliss.
+
+---
+
+[^1]: I read somewhere that model experimentation with LLMs is more of a process of discovery than invention. We are designing models with the desire for them to have certain features or abilities, but we can't verify our designs until we experiment, and even then we can be surprised about the effects of our design. If I want my car to fly I can add wings to the design, we understand aerodynamics well enough for me to be sure my car can fly before I drive it off a cliff. If I want my model to be more agreeable I can prompt it accordingly, but if it ends up calling my [shit on a stick a great business idea](https://www.reddit.com/r/ChatGPT/comments/1k920cg/new_chatgpt_just_told_me_my_literal_shit_on_a/)... you get the point.
+
+[^2]: Bain - Batman: The Dark Night Rises
