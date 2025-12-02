@@ -1,11 +1,11 @@
 ---
 title: Impending doom and what to make of it
-description: 
+description: My hot takes on the public opinion of AI and how it relates to navigating uncertainty in your 20s in the face of an ever more uncertain world. 
 date: 2/12/2025
 readTime: 1002
 ---
 
-![Bain, Master Splinter and Uncle Ben](/impending.jpg)
+![Bain darkness meme](/bain.jpg)
 
 Watching the news the other day, I had the thought: has it always been like this? While the past does seem slightly more logical and less unkempt, I was wondering if that was just the passing years filtering out the nonsense. But according to the half a dozen millennials, gen-X'ers, and boomers I pestered with this question, it actually hasn't always been like this. In fact, the general consensus seems to be that something changed in 2016 (I wonder what?). I've only really been paying attention to what's been happening since after 2016, so for most of my and every other young person's post-childhood existence it has, indeed, always been like this. 
 
