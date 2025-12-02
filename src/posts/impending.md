@@ -11,7 +11,7 @@ Watching the news the other day, I had the thought: has it always been like this
 
 What's *this* you ask? Climate change and its impacts aren't imagined or speculated, they are seen every day. We have constant political unrest with a rise in extremism and the collapse of the rule of law. There was a global pandemic (in case you forgot), the entry-level job market has certainly seen better days, and social media has fuelled a mental health crisis. Most would agree that things could be better. I'm no expert on anything really, but especially grand topics like those mentioned above. What I can talk about is how I'm approaching what is supposed to be "the prime of my youth" and as a lens, I'd like to use the one divisive topic I have yet to mention
 
-#### Master Splinter's and Uncle Ben's Hot Take on AI
+## Master Splinter's and Uncle Ben's Hot Take on AI
 
 Most would agree that AI is not a fad (looking at you web3), but most would not agree on the impact AI is having and going to have on the world. In my personal experience the vast majority of people have an outward-facing scepticism towards the technology; myself included, but I have also seen a quiet, cautious excitement; myself included. The word *awesome* (in the biblical sense) comes to mind. AI is fascinatingly useful and while it is easy to minimise it to *just maths*, the emergent qualities that *just maths* incur have an undoubtedly mystical feel to them [^1].
 
@@ -27,7 +27,7 @@ So why has this not happened for AI? I can't see any other reason than people be
 
 Is AI our new benevolent overlord who has come to forgive us of our ability to think? No; is this an incredibly powerful *and useful* technology? I'd say so, but as Uncle Ben says: "with great power comes great responsibility". The regulation and education surrounding the development of AI is absolutely crucial, and should really be where we are directing our criticism and scepticism. Instead, we waste time and energy criticising something for what it can't do, rather than making the most of what it can. 
 
-#### Bain's Socratic Wisdom
+## Bain's Socratic Wisdom
 
 So what am I getting at? It might feel like the sky is falling down, and that's because in a lot of ways, it is. As I said to my mum this morning, "You merely adopted the dark; I was born in it" [^2]. For my generation the world has always been a mess, and as I navigate the beginning of my career, the uncertainty of the future has never felt so prevalent. The breadth of options available to ambitious youngsters is nothing less than paralysing, from analyst, to consultant, to product manager, to data scientist, to engineer, to fintech, to founder, to impact startup, to big tech, to big 4, to further education, to nothing at all. And combined with a general sense of uncertainty, a [rise in poor mental health in young people](https://www.google.com/search?q=is+mental+healt+in+young+people+gettign+worse&rlz=1C5CHFA_enGB1113GB1113&oq=is+mental+healt+in+young+people+gettign+worse&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMggIAhAAGBYYHjINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTIKCAYQABiABBiiBDIHCAcQABjvBTIKCAgQABiiBBiJBdIBCDU2NThqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8) is unfortunately not surprising.
 
