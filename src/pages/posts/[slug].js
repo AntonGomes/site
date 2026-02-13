@@ -2,6 +2,9 @@ import ReactMarkdown from 'react-markdown'
 import {getPostSlugs, getPostBySlug} from '../../lib/postsAPI'
 import Default from "../../components/default.jsx"
 import remarkGfm from 'remark-gfm'
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
+import 'katex/dist/katex.min.css'
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
 import {dracula} from 'react-syntax-highlighter/dist/cjs/styles/prism'
 
@@ -14,7 +17,8 @@ function Post(props) {
               <div className="bg-stone-50 rounded-lg shadow-sm p-6 sm:p-8">
                 <ReactMarkdown 
                     children={props.post.content} 
-                    remarkPlugins={[remarkGfm]}
+                    remarkPlugins={[remarkGfm, remarkMath]}
+                    rehypePlugins={[rehypeKatex]}
                     className="prose prose-gray max-w-none"
                     components={{
                         img({node, ...props}) {
