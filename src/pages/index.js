@@ -87,72 +87,7 @@ export default function Home({ posts }) {
 
             <Posts posts={posts} />
 
-            <h2 className="text-2xl font-bold text-center text-gray-900 mb-6">Contact me</h2>
-            <div className="max-w-3xl mx-auto">
-              <form onSubmit={handleSubmit} className="bg-stone-50 rounded-lg shadow-sm p-6 border border-stone-300">
-                
-                <div className="mb-4">
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">Name</label>
-                  <input
-                    id="name"
-                    type="text"
-                    name="name"
-                    placeholder="Your name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-pink-500 focus:border-pink-500"
-                    required
-                  />
-                </div>
-                
-                <div className="mb-4">
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                  <input
-                    id="email"
-                    type="email"
-                    name="email"
-                    placeholder="Your email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-pink-500 focus:border-pink-500"
-                    required
-                  />
-                </div>
-                
-                <div className="mb-6">
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">Message</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    placeholder="Your message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    rows={4}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-pink-500 focus:border-pink-500"
-                    required
-                  />
-                </div>
-                
-                <button 
-                  type="submit" 
-                  className="w-full bg-gray-900 text-white py-2 px-4 rounded-md hover:bg-pink-500 transition-colors duration-200 font-medium"
-                >
-                  Send Message
-                </button>
-                
-                {status && (
-                  <div className={`mt-4 p-3 rounded-md text-center ${
-                    status === "Message sent!" 
-                      ? "bg-green-100 text-green-800" 
-                      : status === "Sending..." 
-                      ? "bg-blue-100 text-blue-800"
-                      : "bg-red-100 text-red-800"
-                  }`}>
-                    {status}
-                  </div>
-                )}
-              </form>
-            </div>
+
           </div>
         </div>
       </Default>
