@@ -81,13 +81,13 @@ export default function Home({ posts }) {
                   className="text-gray-900 underline hover:text-pink-500 hover:no-underline transition-colors duration-200"
                 >
                   GitHub
-                </a>, or use the contact form below. Currently looking for work in London, UK.
+                </a>, or email me at <a href="mailto:aomlgomes@gmail.com" className="text-gray-900 underline hover:text-pink-500 hover:no-underline transition-colors duration-200">aomlgomes@gmail.com</a>. Currently looking for work in London, UK.
               </p>
             </div>
 
             <Posts posts={posts} />
 
-            <h2 className="text-2xl font-bold text-center text-gray-900 mb-6">Reach out</h2>
+            <h2 className="text-2xl font-bold text-center text-gray-900 mb-6">Contact me</h2>
             <div className="max-w-3xl mx-auto">
               <form onSubmit={handleSubmit} className="bg-stone-50 rounded-lg shadow-sm p-6 border border-stone-300">
                 
